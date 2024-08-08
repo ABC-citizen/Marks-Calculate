@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite US Modern", cursive;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(95, 184, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container {
+    width: 40%;
+    height: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px yellow;
+}
+
+.row1 {
+    padding: 8px;
+}
+
+.row1 input {
+    width: 100%;
+    height: 33px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.row2 input {
+    width: 100%;
+    height: 33px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.results {
+    background-color: azure;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px white;
+}
